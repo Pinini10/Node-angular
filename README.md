@@ -1,65 +1,55 @@
-# Data Analyst Portfolio
-<!-- <img align ="right" width="150" height="150" src="https://user-images.githubusercontent.com/92649864/160303115-d50e6e48-5061-4221-b063-2afd0263ac26.png"> -->
+Data Analyst Portfolio
+Introduction
 
-## Introduction
-Hello!
+Welcome to my portfolio!
 
-Welcome to my Portfolio. My name is Malan Ouanga and I am excited to have you here!
+My name is Malan Ouanga, and I’m excited to showcase my work here. In this repository, you will find several projects that highlight my skills in data gathering (via APIs), data wrangling, exploratory data analysis, statistical analysis, data visualization, and presentation. The majority of my work is done using Python in Jupyter Notebooks, with key libraries such as Pandas, NumPy, Seaborn, and Matplotlib.
 
-In this repository, you will come across several folders and sub-folders that contain projects that demonstrate the following, but not limited to the following skills: data gathering with APIs, data wrangling, data exploration, statistical analysis, data visualization, presentation skills, etc. A majority of my projects are done using the Python programming language in Jupyter Notebook. Some of the most used packages are Pandas, Numpy, Seaborn and Matplotlib.
+Below, I’ve provided a summary of my journey into data science, along with a brief overview of the projects included in this portfolio. Let’s dive in!
 
-In the following sections of this README, I will provide a short summary of my data journey and brief descriptions of the projects in each folder. Let’s get started!
+About Me & My Data Journey
+I am an IT professional based in Dallas-Fort Worth, with a deep passion for data analytics and cloud computing. I thrive in fast-paced environments and enjoy collaborating with diverse teams to solve complex problems. Currently, I am interning as a Market Consultant at Stiddle, where I create content for the company’s website, email marketing campaigns, and social media efforts. This role has also allowed me to apply my data skills by gathering and analyzing data to suggest relevant topics and identify target industries and locations for campaigns. I have recently transitioned into a more analytical role where I focus on analyzing the eCommerce market.
 
-## About Me & My Data Journey
-I am currently interning as a Market Consultant at Stiddle where my primary job is to write content for the company’s website, email marketing campaigns, social media campaigns, etc. I had the opportunity to practice my data-related skills by gathering and analyzing from various online sources to suggest relevant topics to write and potential industries/locations to target for our social media campaigns. Now, I am taking on a more analytical role in the company where I’m currently analyzing the eCommerce market.
+My journey into data science started in my home country, Ivory Coast, where I studied data structures and algorithms. I continued my education at Dallas College and the University of Texas at Dallas, earning an Associate degree and currently working towards my Bachelor’s degree. My interest in data was sparked after learning how raw data played a pivotal role in the Battle of Midway, ultimately turning the tide of World War II in favor of the Allies. Inspired by this, I pursued courses in statistics, linear algebra, and R. Later, I formalized my learning through the Udacity Programming for Data Science with Python Nanodegree and more recently completed the Udacity Data Scientist Nanodegree, where I gained hands-on experience building Machine Learning pipelines and creating recommendation systems.
 
-My data journey began in my last year at University of California, Santa Barbara, where I received my History bachelor degree. I became mesmerized with data after learning how raw data was utilized by the United States to turn the tide of the war at the Battle of Midway in favor of the Allies. Prior to this, I have taken quantitative focused courses such as statistics, linear algebra, R, etc. After exploring the use of data more in different industries such as marketing, healthcare and finance, I officially began my data education with Udacity with their [Programming for Data Science with Python Nanodegree Program](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104). The most recent topic that I’ve learned is how to build a Machine Learning pipeline and make recommendation engines from their [Data Scientist Nanodegree Program](https://www.udacity.com/course/data-scientist-nanodegree--nd025).
+I am passionate about fostering teamwork and creativity in the workplace, and I am a fast learner with a quirky sense of humor. Moving forward, I aim to leverage my skills to grow my career in software engineering and cloud computing, helping businesses solve problems with data-driven solutions.
 
-## Projects
-### Proj#1 - NBA Data Wrangling & Exploration
-For this project, I am mainly interested in conducting data exploration and analysis on the offensive stats and characteristics of different NBA teams based on Finals ranking which is a new column I will create that contains 4 values: Champion, Runner-Up, Knocked Out and Never Qualified. This project contains a total of 3 notebooks that describe the steps that I’ve taken; the skills that I’ve focused on in this project are data gathering via web-scraping, data cleaning and data exploration(analysis and visualization).
+Projects
+Proj#1 - NBA Data Wrangling & Exploration
+In this project, I explored the offensive stats and characteristics of NBA teams, categorizing them based on Finals ranking (Champion, Runner-Up, Knocked Out, Never Qualified). The project involved data gathering through web scraping, data cleaning, and data exploration (analysis and visualization). The goal was to analyze team performance and discover meaningful insights from the data.
 
-### Proj#2 - Financial Youtube Data Analysis & Exploration
-For this project, I've decided to analyze various financial Youtube channels that I've been following; most of the channels talk about the stock market. If you've been watching Youtube, you often hear content creators telling you to like, comment, and subscribe to help promote their videos. While this might not necessarily be the case, it certainly is worth exploring to look for certain factors that may support this claim. That is exactly what I am going to be doing in this notebook, along with identifying trends among certain Youtube channels with a particular niche or topic.
+Proj#2 - Financial YouTube Data Analysis & Exploration
+For this project, I analyzed several financial YouTube channels focused on the stock market. The main goal was to determine if factors like likes, comments, and subscriber counts have any impact on video promotion. I used the YouTube API for data gathering, followed by data cleaning and exploratory data analysis (EDA). I also utilized Natural Language Processing (NLP) techniques like tokenization to analyze video descriptions.
 
-The skills that I’ve focused on in this project are data gathering via Youtube API, data cleaning and data exploration(analysis and visualization). Additionally, there is a question that I’ve asked and answered using natural language processing skills such as tokenizing sentences.
+Proj#3 - London Crime Hypothesis Testing
+This project explores violent crime rates in London, analyzing trends over time and seasonality. I worked with a dataset containing crime data from 2008 to 2016. The project involved hypothesis testing, statistics, and regression data modeling to determine when violent crimes are most likely to occur, including adjustments for daylight saving time.
 
-### Proj#3 - London Crime Hypothesis Test
-In this project, I am interested in working to understand the crime rate in London, England. My goal is to work through this notebook to understand violent crime rates and when they are likely to occur throughout the year. This dataset contains all crimes (non-violent and violent) committed between 2008 and 2016. However, the nature of the crime-violent or non-violent- is not specified in this dataset, so we will need to deal with that during the preprocessing phase. We will also need to specify which months are the ones when daylight saving is in effect.
+Proj#4 - Beer Project with R
+This project, completed for the Data Science 6306 course at Southern Methodist University, analyzes two datasets on beer and breweries to gain actionable insights for Budweiser. After performing exploratory data analysis (EDA), I used the KNN classifier to predict beer categories based on key features like IBU and ABV.
 
-This project contains a total of 2 notebooks. The skills that I have chosen to focus on are hypothesis testing and statistics, as well as regression data modeling.
+Proj#5 - Airbnb Modeling
+In this Udacity project, I analyzed Airbnb data from Seattle and Boston to answer several business questions, such as:
 
-### Proj#4 - Beer Project with R
-This was done as a project for Data Science 6306 at Southern Methodist University.We want to analyze 2 datasets(totalbeer.csv and totalbreweries.csv) to gain actionable insights to present to the CEO and CFO of Budweiser. Budweiser has hired us to answer some questions. We will perform Exploratory Data Analysis to answer the questions that they are interested in, all of which are listed down below. Afterward, we want to use the KNN classifier to see if we can predict what group a beer belongs to based on its IBU and/or ABV.  
+What amenities are most important for Airbnb listings in each city?
+Can I predict the price based on 8 features?
+How does price fluctuate each month in both cities?
+How does the total number of listings change month to month? The project involved data exploration, modeling, and visualization to provide clear answers to these questions.
+Medium Article: Airbnb Listings Analysis
 
-### Proj#5 - Airbnb Modeling
-In this Udacity Project, I'll be analyzing, modeling, and visualizing the datasets from Airbnb to provide a clear connection between my business questions and how the data answers them. I am interested in using the 2016-17 Seattle and Boston Airbnb datasets to answer the following questions: <br>
-    - What are the important amenities of these listings? Compare the two cities. <br>
-    - Is it possible to predict the price with 8 features? If yes, compare the 2 cities. <br>
-    - How does the price in each city change each month? Be sure to compare the 2 cities. <br>
-    - How does the total number of listings change each month? Be sure to compare the 2 cities.
-    <br>
+Proj#6 - IBM Recommendation System
+This project involved creating a recommendation system for users interacting with articles on the IBM Watson Studio platform. The system was built using several techniques:
 
-Medium Article Link: https://medium.com/@mr.dcny/a-study-of-airbnb-listings-seattle-boston-ff3a69646edf
+Rank-based recommendations: Identifying popular articles.
+Collaborative filtering: Recommending articles based on user behavior.
+Matrix factorization: A machine learning approach to predict new articles that users may engage with.
+Proj#7 - Disaster Response Pipeline
+In this Udacity project, I built a machine learning/NLP pipeline to classify messages sent during disasters into 36 predefined categories (e.g., Aid Related, Medical Help, Search and Rescue). This system helps route messages to the appropriate disaster relief agency. The project includes a web application to automate the classification process.
 
-### Proj#6 - IBM Recommendation System
-In this Udacity Project, I'll be analyzing the interactions that users have with articles on the IBM Watson Studio platform, and making recommendations to them about new articles that they might be interested in.
-The project contains the following tasks:
-    - Exploratory Data Analysis: This part is for data exploration.
+Udacity Data Analyst Projects
+In this folder, you will find a series of projects I completed as part of Udacity’s Data Analyst Nanodegree. These projects focus on Exploratory Data Analysis (EDA), data cleaning, and visualization. Below are brief descriptions of the projects:
 
-    - Rank Based Recommendations: Here, I begin by finding the most popular articles based on the most interactions. These  articles are the ones that we might recommend to new users.
-
-    - User-User Based Collaborative Filtering: In order to give better recommendations to the users of IBM's platform, I examine users that are similar in terms of the items they have interacted with. These items could then be recommended to similar users.
-
-    - Matrix Factorization: For the final step, I created a machine learning approach to building recommendations. Using the user-item interactions, I built out a matrix decomposition which helps me in predicting new articles an individual might interact with.
-
-### Proj#7 - Disaster Response Pipeline
-In this udacity project, I will create a machine learning/NLP pipeline to categorize these events and build a model to classify messages that are sent during disasters. There are 36 pre-defined categories, and examples of these categories include Aid Related, Medical Help, Search And Rescue, etc. By classifying these messages, we can allow these messages to be sent to the appropriate disaster relief agency. This project also includes a web app.
-
-### Udacity Data Analyst Projects
-This folder consists of multiple sub-folders of projects that I’ve completed with Udacity’s Data Analyst program. There are a total of 4 folders where the primary focus is to practice the Exploratory Data Analysis(EDA) process which includes gathering and wrangling data then analyzing and visualizing them. Here is a list of the projects and a short explanation to complement them:
-- **Movie Database Analysis:** In this project, the skills that I’ve demonstrated are: assessing and cleaning data, analyzing data and visualizing data. The goal of this project is to answer the questions that I asked at the beginning.
-- **Analyze Web Page A/B Test:** For this project, I will be working to understand the results of an A/B test run by an e-commerce website. The goal is  to help the company understand if they should implement the new page, keep the old page, or perhaps run the experiment longer to make their decision. In this project, I’ve demonstrated my skills in Probability, A/B Testing and Logistic Regression.
-- **Twitter Data Wrangling & Analysis:** In this project, I gathered data from the archives of a Twitter account called WeRateDogs which rates owned dogs in their tweets and adds a humorous comment with it. My primary goal for this project is to practice the data analysis process which includes gathering data using the Twitter API, downloading datasets programmatically with the requests and BeautifulSoup library, cleaning and analyzing the data, and visualizing them.
-- **Loans Exploratory Data Analysis:** In this project, I am interested in conducting the full exploratory data analysis process on a dataset that was provided to me by Prosper Loan via Udacity. Along with assessing and cleaning the dataset, I demonstrated my skills in creating different kinds of univariate, bivariate, and multivariate visualizations to study the different variables and their relationships with one another. Afterward, I used my analysis and visuals that I’ve created to create a slideshow presentation as if I were presenting it to stakeholders.
-- **SQL Movie Rental Analysis:** In this project, I will be querying the Sakila DVD Rental database, which holds information about a company that rents DVDs. I am doing this to gain an understanding of the customer base and to answer the questions asked at the beginning of the project. While the goal of this project is to investigate the database and create visuals answering the questions listed above, this project is also an opportunity to showcase what I've learned as part of the Nanodegree program. Some skills I would like to draw attention to are my ability to join many tables, create window functions, create Common Table Expressions (CTE) and perform calculations with the help of logical operators.
+Movie Database Analysis: I performed data cleaning, analysis, and visualization to answer business questions about movie ratings.
+A/B Test Analysis: I analyzed the results of an A/B test to help an e-commerce company decide whether to implement a new web page or keep the existing one.
+Twitter Data Wrangling & Analysis: I used the Twitter API to gather, clean, and analyze tweets from a popular Twitter account, providing insights into the account’s engagement and content.
+Loans Exploratory Data Analysis: I conducted EDA on a loan dataset, identifying relationships between variables and visualizing trends.
+SQL Movie Rental Analysis: I used SQL to query a DVD rental database, conducting in-depth analysis on customer behavior and answering business questions using window functions, CTEs, and joins.
